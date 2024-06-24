@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+</head>
+
+
+<body>
+  <header>
+    <img class="logo" src="{{ site.baseurl }}/images/logo2.png" alt="Logo">
+    <h1>Business Analytics Solutions and Tech Support</h1>
+
+    
+    <iframe src="https://github.com/sponsors/arunp77/button" title="Sponsor arunp77" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+  </header>
+  
+
+  <nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+      <li><a href="{{ site.baseurl }}/expertise.html">Expertise</a></li>
+      <li><a href="{{ site.baseurl }}/services.html">Services</a></li>
+      <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+      <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; 2020 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
